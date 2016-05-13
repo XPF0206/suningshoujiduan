@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width">
+	<script src="js/base.js"></script>
+	<script src="js/html5shiv.min.js"></script>
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+ <style>
+    html, body {
+        position: relative;
+    }
+    .swiper-container {
+    	margin-top:1.265rem;
+       	 width:100%;
+	     height: 4.59rem;
+	     position: relative;
+    }
+    .swiper-slide {
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .swiper-slide img{
+    	width:100%;
+    	height:100%;
+    }
+
+    </style>
+<body>
+
+	<header>
+		<nav>
+          <div class="nav-left">
+              <div class="fenlei">
+          	      <img src="img/fenlei.png" alt="">
+          	  </div>  
+          </div>
+          <div class="nav-middle">
+			  <a href="#"><img src="img/fangda.png" alt=""></a>
+          	  <input type="text" placeholder="美妆盛宴">
+          </div>
+          <div class="nav-right">
+			  <img src="img/xiazai (1).png" alt="">
+		  </div>
+		</nav>
+		<!--轮播图-->
+		<div class="swiper-container">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/146252029090196376.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/146250594474305721.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/146252358918013014.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/146252443839946856.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/146252717470505220.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/146253808982120874.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/146261088445913749.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/146261184815056478.jpg" alt=""></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+    </div>
+		<!--选项栏-->
+		<div class="nav-big flt">
+            <div class="dao-top flt">
+				<div class="dao-h1 flt">
+					<a href="#"><img src="img/146193121682965220.png" alt=""></a>
+					<span>分类</span>
+				</div>
+				<div class="dao-h1">
+					<a href="#"><img src="img/146107486468145237.png" alt=""></a>
+					<span>大聚会</span>
+				</div>
+				<div class="dao-h1">
+					<a href="#"><img src="img/146107487911373707.png" alt=""></a>
+					<span>苏宁超市</span>
+				</div>
+				<div class="dao-h1">
+					<a href="#"><img src="img/146107490149214136.png" alt=""></a>
+					<span>红孩子母婴</span>
+				</div>
+				<div class="dao-h1" style="width:2.19rem;">
+					<a href="#"><img src="img/146107492125322764.png" alt=""></a>
+					<span>嗨购精选</span>
+				</div>
+			</div>
+			<div class="dao-middle flt">
+				<div class="dao-h1">
+					<a href="#"><img src="img/146107493617124273.png" alt=""></a>
+					<span>我的易购</span>
+				</div>
+				<div class="dao-h1">
+					<a href="#"><img src="img/146107495434022381.png" alt=""></a>
+					<span>赚钱</span>
+				</div>
+				<div class="dao-h1">
+					<a href="#"><img src="img/146107496784753833.png" alt=""></a>
+					<span>领云钻</span>
+				</div>
+				<div class="dao-h1">
+					<a href="#"><img src="img/146107498156835567.png" alt=""></a>
+					<span>门店导购</span>
+				</div>
+				<div class="dao-h1" style="width:2.19rem;">
+					<a href="#"><img src="img/146165496047828321.png" alt=""></a>
+					<span>客户端下载</span>
+				</div>
+			</div>
+			<div class="dao-botton flt">
+				<img src="img/suning321.png" alt="">
+				<ul>
+					<span class="yuandian1 flt"></span><li class="flt" style="color:#2F322F">回馈母爱 礼物精选</li>
+					<span class="yuandian" flt></span><li class="flt">4月苹果竟然输给三星</li>
+				</ul>
+			</div>
+			<div style="clear: both"></div>
+			<div class="jiexian"></div>
+		</div>
+		<!--时间抢购部分-->
+		<div class="content-box flt">
+                <div class="content-top">
+					 <div class="content-img">
+						 <img src="img/55.png" alt="">
+					 </div>
+					<div class="content-tie flt">
+						<span>15点场</span>
+						<div class="shizheng flt">02</div>
+						<span class="maohao">:</span>
+						<div class="shizheng flt" >04</div>
+						<span class="maohao">:</span>
+						<div class="shizheng flt" style="border:1px solid #FA4B4B;color:#FA4B4B">36</div>
+					</div>
+					<div class="miaosha"><a href="#">天天秒杀</a></div>
+					<div class="jiantou">&gt;</div>
+				</div>
+			     <div class="content-botton">
+					 <div class="tujie">
+						 <img src="img/2016-05-08_221428.png" alt="">
+					 </div>
+					 <div class="tujie" style="border-right:1px solid #F2F2F2">
+						 <img src="img/2016-05-08_221523.png" alt="">
+					 </div>
+					 <div class="tujie "style="border-right:1px solid #F2F2F2">
+						 <img src="img/2016-05-08_221549.png" alt="">
+					 </div>
+				 </div>
+		</div>
+	</header>
+	<!--内容-->
+	<div style="clear: both"></div>
+	<div class="jiexian heng"></div>
+	<section>
+		<div class="menu-box">
+                <div class="menu-yi">
+					 <div class="men-tu1">
+						 <img src="img/146252893910905315.jpg" alt="">
+					 </div>
+					<div class="men-tu2">
+						<img src="img/146253404381677598.jpg" alt="">
+					</div>
+				</div>
+			    <div class="men-er">
+					<div class="men-tu3">
+						<img src="img/146253191218552009.jpg" alt="">
+					</div>
+					<div class="men-tu3" style="border-right:0px solid #F2F2F2;">
+						<img src="img/146253712103214572.jpg" alt="">
+					</div>
+				</div>
+		</div>
+		<div class="jiexian hengbiao"></div>
+        <div class="hengfu">
+			<img src="img/145914591429836587.png" alt="">
+		</div>
+		<!--内容2-->
+		<div class="nar-neirong">
+           <div class="nar-left">
+			   <img src="img/146261551209555123.jpg" alt="">
+		   </div>
+			<div class="nar-right">
+				<img src="img/146241745430763786.jpg" alt="">
+			</div>
+			<div class="nar-right-1">
+				<img src="img/146183169072412954.jpg" alt="">
+			</div>
+			<div class="nar-right-2">
+				<img src="img/146250051521308564.jpg" alt="">
+			</div>
+		</div>
+		<!--内容3-->
+		<div class="jiexian hengbiao"></div>
+		<div class="main-3">
+			<img src="img/146238250717174674.jpg" alt="">
+		</div>
+		<div class="jiexian"></div>
+		 <div class="hengfu">
+			<img src="img/145914606659420042.png" alt="">
+		</div>
+		<article>
+			<div class="column-box">
+				 <div class="column-n1">
+				 	<img src="img/146288310272457516.jpg" alt="">
+				 </div>
+				 <div class="column-xiao-n2">
+				 	<img src="img/146288495511484072.jpg" alt="">
+				 </div>
+				 <div class="column-xiao-n2">
+				 	<img src="img/146286085885153398.webp" alt="">
+				 </div>
+				 	<div style="clear: both"></div>
+				 <ul class="column-xiao-n3">
+				 	<li><img src="img/146277795627231723.webp" alt=""></li>
+				 	<li class="column-xiao-n4"><img src="img/146275854612161989.webp" alt=""></li>
+				 	<li class="column-xiao-n4"><img src="img/146276346402212355.webp" alt=""></li>
+				 	<li class="column-xiao-n4"><img src="img/146275943643398068.webp" alt=""></li>
+				 	<li class="column-xiao-n4"><img src="img/146284916570473744.webp" alt=""></li>
+				 	<li class="column-xiao-n4"><img src="img/146284403733403128.png" alt=""></li>
+				 </ul>
+			</div>
+		</article>
+			<div class="jiexian hengbiao"></div>
+		    <div class="main-3">
+			      <img src="img/146279854584520348.jpg" alt="">
+		    </div>
+	 <article>
+	 <!--内容4-->
+	 	<div class="jiexian"></div>
+		 <div class="hengfu">
+			<img src="img/145914634230232243.png" alt="">
+		</div>
+		  <div class="column-h1">
+		  	<ul>
+		  		<li><img src="img/146286931021573486.webp" alt=""></li>
+		  		<li><img src="img/146275873949250529.jpg" alt=""></li>
+		  	</ul>
+		  </div> 
+		  <div class="column-h2">
+		  	<ul>
+		  		<li><img src="img/146278779471028038.webp" alt=""></li>
+		  		<li><img src="img/146285230097366563.webp" alt=""></li>
+		  		<li><img src="img/146278214488242024.webp" alt=""></li>
+		  	</ul>
+		  	<ul>
+		  		<li><img src="img/146278143272912521.webp" alt=""></li>
+		  		<li><img src="img/146279862991825553.webp" alt=""></li>
+		  		<li><img src="img/146279500713017855.webp" alt=""></li>
+		  	</ul>
+		  	<ul>
+		  		<li><img src="img/146284743583783938.webp" alt=""></li>
+		  		<li><img src="img/146284569146493876.webp" alt=""></li>
+		  		<li><img src="img/146208460887556744.webp" alt=""></li>
+		  	</ul>
+             <ul>
+		  		<li style="border-bottom:0px"><img src="img/146276019179415648.webp" alt=""></li>
+		  		<li style="border-bottom:0px"><img src="img/146287194570475355.webp" alt=""></li>
+		  		<li style="border-bottom:0px"><img src="img/146279477574983885.webp" alt=""></li>
+		  	</ul>
+		  </div>
+	</article>
+		<div style="clear: both"></div>
+		<div class="jiexian"></div> 
+	  <div class="hengfu">
+			<img src="img/145914636860072175.png" alt="">
+		</div>
+		<!--第四层-->
+<article>
+<div style="clear: both"></div>
+	<div class="column-s1">
+		<div class="column-s2">
+			<img src="img/146277654046487642.webp" alt="">
+		</div>
+		<div class="column-s3">
+			<img src="img/146276461602181051.webp" alt="">
+		</div>
+		<div class="column-s4">
+			<img src="img/146285471985076653.webp" alt="">
+		</div>
+	</div>
+</article>
+	<!--第五层-->
+			<div class="jiexian"></div> 
+			<div class="hengfu">
+				<img src="img/145914646393705095.png" alt="">
+			</div>
+			<div class="column-w1">
+				  <div class="column-w2">
+				  	<img src="img/146277522160780861.webp" alt="">
+				  </div>
+				  <div class='column-w3'>
+				  	<img src="img/146243056640087515.webp" alt="">
+				  </div>
+				   <div class='column-w3 column-w4'>
+				  	<img src="img/146277527069643968.webp" alt="">
+				  </div>
+			</div>
+	</section>
+	<!--第六层-->
+<div class="jiexian"></div> 
+  <div class="hengfu">
+		<img src="img/145873634173144483.png" alt="">
+  </div>
+  <section>
+  	<div class="column-l1">
+  		<div class="column-l2">
+  			<img src="img/6556545.png" alt="">
+  		</div>
+  		<div class="column-l3">
+  	 	<img src="img/asdadla.png" alt="">
+  	 </div>
+  	</div>
+	  <!--第七层-->
+  <div class="caini">
+  	<img src="img/dada.png" alt="">
+  </div>
+	  <article>
+  	<div class="column-Q1">
+  		<div class="column-Q2">
+  			<img src="img/000000000126128410_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">志高(CHIGO) 1匹 冷暖定频静音挂机空调</span>
+  				<span class="jianqian">￥438.00</span>
+  			</div>
+  		</div>
+  		<div class="column-Q2">
+  			<img src="img/000000000101341475_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">相宜本草光彩立现睡眠面膜(莹润亮泽/净白莹润)135g</span>
+  				<span class="jianqian">￥22.90</span>
+  			</div>
+
+  		</div>
+  	</div>
+	  	<!--2-->
+  	<div class="column-Q1">
+  		<div class="column-Q2">
+  			<img src="img/000000000125036650_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">志高(CHIGO) 1匹 冷暖定频静音挂机空调</span>
+  				<span class="jianqian">￥19.90</span>
+  			</div>
+  		</div>
+  		<div class="column-Q2">
+  			<img src="img/000000000101382892_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">绿伞去污超人洗衣液3kg 熏衣芳菲香型</span>
+  				<span class="jianqian">￥35.00</span>
+  			</div>
+
+  		</div>
+  	</div>
+  	<!--3-->
+	<div class="column-Q1">
+		<div class="column-Q2">
+			<img src="img/000000000125477355_1_200x200.webp" alt="">
+			<div class="column-Q3">
+				<span class="column-Q4">海信（Hisense）1.5匹 冷暖变频智能挂机空调</span>
+				<span class="jianqian">￥2299.00</span>
+			</div>
+		</div>
+		<div class="column-Q2">
+			<img src="img/000000000140821902_1_200x200.webp" alt="">
+			<div class="column-Q3">
+				<span class="column-Q4">可莱丝(Clinie)NMF针剂水库面膜5片+胶原蛋白面膜</span>
+				<span class="jianqian">￥69.00</span>
+			</div>
+
+		</div>
+	</div>
+	<!--4-->
+	<div class="column-Q1">
+  		<div class="column-Q2">
+  			<img src="img/000000000125055797_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">绿伞去污超人洗衣液三袋装 500g*3袋</span>
+  				<span class="jianqian">￥8.90</span>
+  			</div>
+  		</div>
+  		<div class="column-Q2">
+  			<img src="img/000000000128866947_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">海尔（Haier） 1.5P 变频 智能 除甲醛 冷暖 空调</span>
+  				<span class="jianqian">￥2588.00</span>
+  			</div>
+
+  		</div>
+  	</div>
+  	<!--5-->
+  	 <div class="column-Q1">
+  		<div class="column-Q2">
+  			<img src="img/000000000126128410_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">志高(CHIGO) 1匹 冷暖定频静音挂机空调</span>
+  				<span class="jianqian">￥438.00</span>
+  			</div>
+  		</div>
+  		<div class="column-Q2">
+  			<img src="img/000000000101341475_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">相宜本草光彩立现睡眠面膜(莹润亮泽/净白莹润)135g</span>
+  				<span class="jianqian">￥22.90</span>
+  			</div>
+
+  		</div>
+  	</div>
+  	<!--6-->
+  	<div class="column-Q1">
+  		<div class="column-Q2">
+  			<img src="img/000000000126128410_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">志高(CHIGO) 1匹 冷暖定频静音挂机空调 </span>
+  				<span class="jianqian">￥438.00</span>
+  			</div>
+  		</div>
+  		<div class="column-Q2">
+  			<img src="img/000000000101341475_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">相宜本草光彩立现睡眠面膜(莹润亮泽/净白莹润)135g</span>
+  				<span class="jianqian">￥22.90</span>
+  			</div>
+
+  		</div>
+  	</div>
+  	<!--7-->
+  	<div class="column-Q1">
+  		<div class="column-Q2">
+  			<img src="img/000000000126128410_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">志高(CHIGO) 1匹 冷暖定频静音挂机空调</span>
+  				<span class="jianqian">￥438.00</span>
+  			</div>
+  		</div>
+  		<div class="column-Q2">
+  			<img src="img/000000000101341475_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">相宜本草光彩立现睡眠面膜(莹润亮泽/净白莹润)135g</span>
+  				<span class="jianqian">￥22.90</span>
+  			</div>
+
+  		</div>
+  	</div>
+  	<!--8-->
+  	<div class="column-Q1">
+  		<div class="column-Q2">
+  			<img src="img/000000000126128410_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">志高(CHIGO) 1匹 冷暖定频静音挂机空调</span>
+  				<span class="jianqian">￥438.00</span>
+  			</div>
+  		</div>
+  		<div class="column-Q2">
+  			<img src="img/000000000101341475_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">相宜本草光彩立现睡眠面膜(莹润亮泽/净白莹润)135g</span>
+  				<span class="jianqian">￥22.90</span>
+  			</div>
+
+  		</div>
+  	</div>
+  	<!--9-->
+  	<div class="column-Q1">
+  		<div class="column-Q2">
+  			<img src="img/000000000126128410_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">志高(CHIGO) 1匹 冷暖定频静音挂机空调</span>
+  				<span class="jianqian">￥438.00</span>
+  			</div>
+  		</div>
+  		<div class="column-Q2">
+  			<img src="img/000000000101341475_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">相宜本草光彩立现睡眠面膜(莹润亮泽/净白莹润)135g</span>
+  				<span class="jianqian">￥22.90</span>
+  			</div>
+
+  		</div>
+  	</div>
+  	<!--10-->
+  	<div class="column-Q1">
+  		<div class="column-Q2">
+  			<img src="img/000000000126128410_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">志高(CHIGO) 1匹 冷暖定频静音挂机空调</span>
+  				<span class="jianqian">￥438.00</span>
+  			</div>
+  		</div>
+  		<div class="column-Q2">
+  			<img src="img/000000000101341475_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">相宜本草光彩立现睡眠面膜(莹润亮泽/净白莹润)135g</span>
+  				<span class="jianqian">￥22.90</span>
+  			</div>
+
+  		</div>
+  	</div>
+  	<!--11-->
+  	<div class="column-Q1">
+  		<div class="column-Q2">
+  			<img src="img/000000000126128410_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">志高(CHIGO) 1匹 冷暖定频静音挂机空调</span>
+  				<span class="jianqian">￥438.00</span>
+  			</div>
+  		</div>
+  		<div class="column-Q2">
+  			<img src="img/000000000101341475_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">相宜本草光彩立现睡眠面膜(莹润亮泽/净白莹润)135g</span>
+  				<span class="jianqian">￥22.90</span>
+  			</div>
+
+  		</div>
+  	</div>
+  	<!--12-->
+  	<div class="column-Q1">
+  		<div class="column-Q2">
+  			<img src="img/000000000126128410_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">志高(CHIGO) 1匹 冷暖定频静音挂机空调</span>
+  				<span class="jianqian">￥438.00</span>
+  			</div>
+  		</div>
+  		<div class="column-Q2">
+  			<img src="img/000000000101341475_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">相宜本草光彩立现睡眠面膜(莹润亮泽/净白莹润)135g</span>
+  				<span class="jianqian">￥22.90</span>
+  			</div>
+
+  		</div>
+  	</div>
+  	<!--13-->
+  	<div class="column-Q1">
+  		<div class="column-Q2">
+  			<img src="img/000000000126128410_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">志高(CHIGO) 1匹 冷暖定频静音挂机空调</span>
+  				<span class="jianqian">￥438.00</span>
+  			</div>
+  		</div>
+  		<div class="column-Q2">
+  			<img src="img/000000000101341475_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">相宜本草光彩立现睡眠面膜(莹润亮泽/净白莹润)135g</span>
+  				<span class="jianqian">￥22.90</span>
+  			</div>
+
+  		</div>
+  	</div>
+  	<!--14-->
+  	<div class="column-Q1">
+  		<div class="column-Q2">
+  			<img src="img/000000000126128410_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">志高(CHIGO) 1匹 冷暖定频静音挂机空调</span>
+  				<span class="jianqian">￥438.00</span>
+  			</div>
+  		</div>
+  		<div class="column-Q2">
+  			<img src="img/000000000101341475_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">相宜本草光彩立现睡眠面膜(莹润亮泽/净白莹润)135g</span>
+  				<span class="jianqian">￥22.90</span>
+  			</div>
+
+  		</div>
+  	</div>
+  	<!--15-->
+  	<div class="column-Q1">
+  		<div class="column-Q2">
+  			<img src="img/000000000126128410_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">志高(CHIGO) 1匹 冷暖定频静音挂机空调</span>
+  				<span class="jianqian">￥438.00</span>
+  			</div>
+  		</div>
+  		<div class="column-Q2">
+  			<img src="img/000000000101341475_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">相宜本草光彩立现睡眠面膜(莹润亮泽/净白莹润)135g</span>
+  				<span class="jianqian">￥22.90</span>
+  			</div>
+
+  		</div>
+  	</div>
+  	<!--16-->
+  	<div class="column-Q1">
+  		<div class="column-Q2">
+  			<img src="img/000000000126128410_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">志高(CHIGO) 1匹 冷暖定频静音挂机空调</span>
+  				<span class="jianqian">￥438.00</span>
+  			</div>
+  		</div>
+  		<div class="column-Q2">
+  			<img src="img/000000000101341475_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">相宜本草光彩立现睡眠面膜(莹润亮泽/净白莹润)135g</span>
+  				<span class="jianqian">￥22.90</span>
+  			</div>
+
+  		</div>
+  	</div>
+  	<!--17-->
+  	<div class="column-Q1">
+  		<div class="column-Q2">
+  			<img src="img/000000000126128410_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">志高(CHIGO) 1匹 冷暖定频静音挂机空调</span>
+  				<span class="jianqian">￥438.00</span>
+  			</div>
+  		</div>
+  		<div class="column-Q2">
+  			<img src="img/000000000101341475_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">相宜本草光彩立现睡眠面膜(莹润亮泽/净白莹润)135g</span>
+  				<span class="jianqian">￥22.90</span>
+  			</div>
+
+  		</div>
+  	</div>
+  	<!--18-->
+  	<div class="column-Q1">
+  		<div class="column-Q2">
+  			<img src="img/000000000126128410_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">志高(CHIGO) 1匹 冷暖定频静音挂机空调</span>
+  				<span class="jianqian">￥438.00</span>
+  			</div>
+  		</div>
+  		<div class="column-Q2">
+  			<img src="img/000000000101341475_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">相宜本草光彩立现睡眠面膜(莹润亮泽/净白莹润)135g</span>
+  				<span class="jianqian">￥22.90</span>
+  			</div>
+
+  		</div>
+  	</div>
+  	<!--19-->
+  	<div class="column-Q1">
+  		<div class="column-Q2">
+  			<img src="img/000000000126128410_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">志高(CHIGO) 1匹 冷暖定频静音挂机空调</span>
+  				<span class="jianqian">￥438.00</span>
+  			</div>
+  		</div>
+  		<div class="column-Q2">
+  			<img src="img/000000000101341475_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">相宜本草光彩立现睡眠面膜(莹润亮泽/净白莹润)135g</span>
+  				<span class="jianqian">￥22.90</span>
+  			</div>
+
+  		</div>
+  	</div>
+  	<!--20-->
+  	<div class="column-Q1">
+  		<div class="column-Q2">
+  			<img src="img/000000000126128410_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">志高(CHIGO) 1匹 冷暖定频静音挂机空调</span>
+  				<span class="jianqian">￥438.00</span>
+  			</div>
+  		</div>
+  		<div class="column-Q2">
+  			<img src="img/000000000101341475_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">相宜本草光彩立现睡眠面膜(莹润亮泽/净白莹润)135g</span>
+  				<span class="jianqian">￥22.90</span>
+  			</div>
+
+  		</div>
+  	</div>
+  	<!--21-->
+  	<div class="column-Q1">
+  		<div class="column-Q2">
+  			<img src="img/000000000126128410_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">志高(CHIGO) 1匹 冷暖定频静音挂机空调</span>
+  				<span class="jianqian">￥438.00</span>
+  			</div>
+  		</div>
+  		<div class="column-Q2">
+  			<img src="img/000000000101341475_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">相宜本草光彩立现睡眠面膜(莹润亮泽/净白莹润)135g</span>
+  				<span class="jianqian">￥22.90</span>
+  			</div>
+
+  		</div>
+  	</div>
+  	<!--22-->
+  	<div class="column-Q1">
+  		<div class="column-Q2">
+  			<img src="img/000000000126128410_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">志高(CHIGO) 1匹 冷暖定频静音挂机空调</span>
+  				<span class="jianqian">￥438.00</span>
+  			</div>
+  		</div>
+  		<div class="column-Q2">
+  			<img src="img/000000000101341475_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">相宜本草光彩立现睡眠面膜(莹润亮泽/净白莹润)135g</span>
+  				<span class="jianqian">￥22.90</span>
+  			</div>
+
+  		</div>
+  	</div>
+  	<!--23-->
+  	<div class="column-Q1">
+  		<div class="column-Q2">
+  			<img src="img/000000000126128410_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">志高(CHIGO) 1匹 冷暖定频静音挂机空调</span>
+  				<span class="jianqian">￥438.00</span>
+  			</div>
+  		</div>
+  		<div class="column-Q2">
+  			<img src="img/000000000101341475_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">相宜本草光彩立现睡眠面膜(莹润亮泽/净白莹润)135g</span>
+  				<span class="jianqian">￥22.90</span>
+  			</div>
+
+  		</div>
+  	</div>
+  	<!--24-->
+  	<div class="column-Q1">
+  		<div class="column-Q2">
+  			<img src="img/000000000126128410_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">志高(CHIGO) 1匹 冷暖定频静音挂机空调</span>
+  				<span class="jianqian">￥438.00</span>
+  			</div>
+  		</div>
+  		<div class="column-Q2">
+  			<img src="img/000000000101341475_1_200x200.webp" alt="">
+  			<div class="column-Q3">
+  				<span class="column-Q4">相宜本草光彩立现睡眠面膜(莹润亮泽/净白莹润)135g</span>
+  				<span class="jianqian">￥22.90</span>
+  			</div>
+
+  		</div>
+  	</div>
+	  </article>
+	  </section>
+	  <footer>
+	  <div class="jiexian color"></div> 
+	  	  <div class="footer-box">
+	  	  	  <div class="footer-nav">
+	  	  	  	<a href="#" style="	margin-left:0.2rem;">登录</a>
+	  	  	  	<span>|</span>
+	  	  	  	<a href="#">注册</a>
+	  	  	  	<span>|</span>
+	  	  	  	<a href="#">电脑版</a>
+	  	  	  	<span>|</span>
+	  	  	  	<a href="#">普通版</a>
+	  	  	  	<span>|</span>
+	  	  	  	<a href="#" style="">客户端</a>
+	  	  	  </div>
+	  	  	 <div class="footer-bottom">
+	  	  	<span>Copyright © 2002 -2016 苏宁 suning.com 版权所有</span>
+	  	  </div> 
+	  	  </div>
+	  	  
+	  </footer>
+	    <script src="js/swiper.min.js"></script>
+	  <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 1,
+        paginationClickable: true,
+        loop: true,
+        autoplay : 3000,
+         autoplayDisableOnInteraction : false,
+    });
+    </script>
+</body>
+</html>
